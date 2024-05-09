@@ -1,0 +1,14 @@
+{
+  "output":
+  [
+    {
+      "name": "Features",
+      "type": "float",
+      "size": 12
+    },
+    {
+      "name": "Iteration",
+      "type": "uint16_t"
+    }
+  ]
+}
