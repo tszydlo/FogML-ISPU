@@ -10,14 +10,20 @@ The code in the example is intended to recognize simple 3D movement patterns in 
 ![1st pattern](docs/gif_2.gif)
 
 The content of the repository is as follows:
- - docs - images etc.
- - ispu - source code of the example with FogML library and the configured processing pipeline i.e. windowing, DSP, classifier.
- - mlops - Jupiter notebook for training classifier and the the source code generation
- - output-logger - precompiled code for the ISPU for data logging
- - output-classifier - final example code for the ISPU
+ - `docs` - images etc.
+ - `ispu` - source code of the example with FogML library and the configured processing pipeline i.e. windowing, DSP, classifier.
+ - `mlops` - Jupiter notebook for training classifier and the source code generation
+ - `output-logger` - precompiled code for the ISPU for data logging
+ - `output-classifier` - final example code for the ISPU
 
 The process of creating the final solution comprises the five steps as presented in the figure.
 
 ![MLOps](docs/ISPU_process.png)
+
+For the data logging, the ST Unicleo-GUI can be used as presented in the figure:
+![data logging](docs/DataLoggingAll.png)
+
+The final evaluation can be done using the same tool - programming and the detected class notification:
+![data logging](docs/ISPU_Output.png)
 
 To program the sensor with ISPU, follow the  ST ISPU product page tutorial.
